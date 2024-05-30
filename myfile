@@ -8,3 +8,6 @@ My Own Basic commands to start with github
 6. git merge local ##( switch to local main branch and do git merge with branch name, it will merge to your main branch)
 7. git push -u origin main ##(Changes will get pushed remote main branch directly)
 8. 
+
+
+######>>>eof
