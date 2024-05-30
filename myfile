@@ -7,7 +7,12 @@ My Own Basic commands to start with github
 5 git commit -m filename
 6. git merge local ##( switch to local main branch and do git merge with branch name, it will merge to your main branch)
 7. git push -u origin main ##(Changes will get pushed remote main branch directly)
-8. 
+8
 
+##### Instead of performing cloning each and every time, Start with upstream in git
+
+git branch --set-upstream-to origin/master master ##(the follwing command will help to setup a your master repo as a referecen point)
+
+git pull --rebase ##(Here the latest changes will be automatically pulled from your master branch to your local branch)
 
 ######>>>eof
