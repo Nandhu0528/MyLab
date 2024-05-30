@@ -1,3 +1,10 @@
-##Start with Terraform setup to GKS.
+My Own Basic commands to start with github
 
-Once the lab created please delete the lab at end of the day.
+1. git clone "https://github.com/Nandhu0528/MyLab.git"  ##(Clone the master repo to your local branch. )
+2. git checkout -b local ##(git checkout to new branch, here "local" is new branch name)
+3. git branch -a ##(list all branches)
+4. git add filename ##(add the changes to the file and commit with message )
+5 git commit -m filename
+6. git merge local ##( switch to local main branch and do git merge with branch name, it will merge to your main branch)
+7. git push -u origin main ##(Changes will get pushed remote main branch directly)
+8. 
